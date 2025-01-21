@@ -12,9 +12,9 @@
 }
 
 .container {
+    position: relative;
     max-width: 1140px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .second__title {
@@ -29,6 +29,7 @@
     background: rgba(0, 0, 0, 0.5) url('../img/mainBg.jpg') center center / cover no-repeat;
     background-blend-mode: darken;
     padding: 180px 0 30px 0;
+    text-align: center;
 
 }
 
@@ -63,7 +64,7 @@
     padding-top: 45px;
     background: rgba(0, 0, 0, 0.5) url('../img/bg_suggest.jpg') center center / cover no-repeat;
     background-blend-mode: darken;
-    position: relative;
+    text-align: center;
 }
 
 .divider {
@@ -89,8 +90,8 @@
 
 .apartment__img {
     position: absolute;
-    left: 345px;
-    bottom: 40px;
+    left: -75;
+    top: 170px;
     display: block;
     width: 500px;
     height: 500px;
@@ -101,6 +102,7 @@
     padding: 45px 0 90px 0;
     background: rgba(0, 0, 0, 0.5) url("../img/downtown_bg.webp") center center / cover no-repeat;
     background-blend-mode: darken;
+    text-align: center;
 
     .about__text {
         margin-top: 35px;
@@ -113,10 +115,9 @@
 .flex__container {
     margin-top: 100px;
     display: flex;
-    gap: 20px;
     justify-content: space-between;
-}
 
-.round__poster {
-    border-radius: 10%;
+    .round__poster {
+        border-radius: 10%;
+    }
 }
