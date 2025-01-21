@@ -120,6 +120,12 @@
     .round__poster {
         border-radius: 10%;
     }
+
+    .block__img {
+        img {
+            box-shadow: 5px 5px 5px black;
+        }
+    }
 }
 
 .waiting {
@@ -152,5 +158,6 @@
         font-size: 42px;
         font-weight: 700;
         cursor: pointer;
+        box-shadow: 7px 7px 10px black
     }
 }
