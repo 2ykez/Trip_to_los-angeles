@@ -12,9 +12,16 @@
 }
 
 .container {
-    max-width: 980px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
+}
+
+.second__title {
+    margin-top: 45px;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--text-color);
 }
 
 .trip__to {
@@ -57,13 +64,6 @@
     background: rgba(0, 0, 0, 0.5) url('../img/bg_suggest.jpg') center center / cover no-repeat;
     background-blend-mode: darken;
     position: relative;
-
-    .title__suggest {
-        margin-top: 45px;
-        font-size: 64px;
-        font-weight: 700;
-        color: var(--text-color);
-    }
 }
 
 .divider {
@@ -95,4 +95,28 @@
     width: 500px;
     height: 500px;
     z-index: 1;
+}
+
+.about__la {
+    padding: 45px 0 90px 0;
+    background: rgba(0, 0, 0, 0.5) url("../img/downtown_bg.webp") center center / cover no-repeat;
+    background-blend-mode: darken;
+
+    .about__text {
+        margin-top: 35px;
+        font-size: 36px;
+        color: var(--text-color);
+
+    }
+}
+
+.flex__container {
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.round__poster {
+    border-radius: 10%;
 }
