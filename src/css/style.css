@@ -21,7 +21,7 @@
     /* height: 800px; */
     background: rgba(0, 0, 0, 0.5) url('../img/mainBg.jpg') center center / cover no-repeat;
     background-blend-mode: darken;
-    padding: 140px 0 30px 0;
+    padding: 180px 0 30px 0;
 
 }
 
@@ -33,15 +33,15 @@
 
 .title {
     font-size: 64px;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--text-color);
-    margin: 35px 0;
+    margin: 135px 0;
 }
 
 .help__title {
-    margin-top: 55px;
+    margin-top: 60px;
     font-size: 32px;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--text-color);
 }
 
@@ -52,11 +52,18 @@
 /* second section */
 
 .suggest {
-    height: 800px;
+    min-height: 800px;
     padding-top: 45px;
     background: rgba(0, 0, 0, 0.5) url('../img/bg_suggest.jpg') center center / cover no-repeat;
     background-blend-mode: darken;
     position: relative;
+
+    .title__suggest {
+        margin-top: 45px;
+        font-size: 64px;
+        font-weight: 700;
+        color: var(--text-color);
+    }
 }
 
 .divider {
@@ -82,8 +89,8 @@
 
 .apartment__img {
     position: absolute;
-    left: 335px;
-    bottom: 25px;
+    left: 345px;
+    bottom: 40px;
     display: block;
     width: 500px;
     height: 500px;
