@@ -90,7 +90,7 @@
 
 .apartment__img {
     position: absolute;
-    left: -75;
+    left: -75px;
     top: 170px;
     display: block;
     width: 500px;
